@@ -1,63 +1,82 @@
-# 💈 BarberTime - Система бронирования для барбершопа
+# BizBook — Online Booking System for Barbershops
 
-Современная система онлайн-бронирования с темным премиальным дизайном и встроенным магазином косметики.
+BizBook is a web-based online booking system designed for barbershops.  
+The project automates the appointment booking process and provides a centralized admin panel for managing services, barbers, schedules, and bookings.
 
-## 🚀 Быстрый старт
-
-### 1. Первый вход
-1. Откройте приложение
-2. Нажмите **"Админ-панель"** → **"Регистрация"**
-3. Создайте аккаунт администратора
-
-### 2. Автоматическое добавление услуг
-При первом входе система предложит добавить **10 стандартных услуг** барбершопа одним кликом:
-- ✂️ Классическая стрижка (1500 ₽)
-- 🪒 Стрижка машинкой (1000 ₽)
-- 🧔 Моделирование бороды (1200 ₽)
-- 👑 Королевское бритье (2500 ₽)
-- 💇 Fade стрижка (2000 ₽)
-- И еще 5 услуг...
-
-### 3. Настройка расписания
-- Установите рабочие часы для каждого дня недели
-- Добавьте перерывы
-- Закройте выходные дни
-
-## ✨ Возможности
-
-### Для клиентов:
-- 🎯 Два способа бронирования: через услуги или мастеров
-- ⏰ Интерактивный выбор времени
-- 🛍️ Магазин с 12 товарами профессиональной косметики
-- 📱 Адаптивный дизайн для всех устройств
-
-### Для администратора:
-- 📊 Статистика и аналитика
-- 📋 Управление заявками
-- 🛠️ Настройка услуг и расписания
-- 🚫 Блокировка дат
-
-## 🛍️ Магазин косметики
-
-12 товаров в 5 категориях:
-- Уход за бородой
-- Стайлинг
-- Бритье
-- Аксессуары
-- Уход за телом
-
-## 🎨 Технологии
-
-- React + TypeScript
-- Tailwind CSS v4
-- Motion (анимации)
-- Supabase (backend)
-- Shadcn/ui компоненты
-
-## 📖 Подробная документация
-
-Смотрите [BARBERSHOP_SETUP.md](./BARBERSHOP_SETUP.md) для полной инструкции по настройке.
+This project was created as a university project and demonstrates how modern web technologies can be used to solve real business problems.
 
 ---
 
-**BarberTime** - все для вашего барбершопа! 💈✨
+## Live Design & Prototype
+
+Figma Design (UI/UX):  
+
+https://bizbook.figma.site
+## Key Features
+
+### Client Side
+- Choose booking method (by service or by barber)
+- Browse services with transparent pricing and duration
+- Select preferred barber with ratings and profiles
+- Real-time date and time selection
+- Simple booking confirmation using name and phone number
+- No registration required
+
+### Admin Panel
+- Manage bookings (confirm, cancel, view history)
+- Manage services (price and duration)
+- Manage barbers (profiles, activation status)
+- Configure working schedules and breaks
+- Block specific dates (holidays or maintenance)
+- View statistics and booking analytics
+- Manage cosmetics marketplace items
+
+---
+
+## Tech Stack
+
+**Frontend**
+- React
+- TypeScript
+- Vite
+- CSS (custom UI components)
+
+**Backend & Database**
+- Supabase (PostgreSQL, Auth, Edge Functions)
+
+**Design**
+- Figma
+- Figma Make (design-to-code workflow)
+
+---
+
+## Project Structure
+├── src/
+│   ├── components/
+│   ├── styles/
+│   ├── utils/
+│   ├── supabase/
+│   └── main.tsx
+├── index.html
+├── package.json
+├── vite.config.ts
+└── README.md
+
+
+## Running the Project Locally
+
+1. Install dependencies:
+```bash
+npm install
+
+npm run dev
+
+Note:
+Some files related to Supabase Edge Functions use the Deno environment.
+Editor warnings may appear locally, which is expected and does not affect the project structure or logic.
+
+
+Author
+
+Nuskaiym Sabitalieva
+University Project — Online Booking System

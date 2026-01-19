@@ -5,6 +5,8 @@ The project automates the appointment booking process and replaces manual method
 
 This project was created as a **university project** and demonstrates how modern web technologies can be applied to solve real business problems.
 
+- **Demo Video:** -  https://www.youtube.com/watch?v=XFAAYHqnwnM
+
 ---
 
 ## 🔗 Live Design & Prototype
@@ -18,7 +20,6 @@ https://bizbook.figma.site/admin
 - **Login:** `admin@bizbook.com`  
 - **Password:** `admin2026`
 
-- **Demo Video:** -  https://www.youtube.com/watch?v=XFAAYHqnwnM
 
 ---
 

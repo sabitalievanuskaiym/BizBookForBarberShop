@@ -18,7 +18,7 @@ https://bizbook.figma.site/admin
 - **Login:** `admin@bizbook.com`  
 - **Password:** `admin2026`
 
-- **Demo Video:** -  `https://www.youtube.com/watch?v=XFAAYHqnwnM`
+- **Demo Video:** -  https://www.youtube.com/watch?v=XFAAYHqnwnM
 
 ---
 
